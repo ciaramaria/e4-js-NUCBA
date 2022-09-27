@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    background-color: #3761a1
+
+}
+
+#form {
+    display: grid;
+    place-content: center;
+    margin-top: 20px;
+}
+
+#input {
+    background-color: #feca1b;
+
+}
+/* 
+<div class="poke">
+        <p class="id">#${id}</p>
+        <h1>${name.toUpperCase()}</h1>
+            <div class="type">${types.map(tipo => {
+                return `<span class="${tipo.type.name} poke-type">${tipo.type.name}</span>`;})}
+            </div>
+        <p class="height">Altura: ${height / 10}m</p>
+        <p class="weight">Tamaño: ${weight / 10}Kg</p>
+        <span class="move">Movimientos: ${moves}</span>
+    </div> */
+
+    .poke {
+        background-color: red;
+    }
+    h1 {
+        color: #feca1b;
+    }
+
+    .weight {
+        background-color: red;
+    }
